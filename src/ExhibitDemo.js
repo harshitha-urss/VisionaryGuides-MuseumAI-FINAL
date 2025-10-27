@@ -1013,6 +1013,7 @@ function ExhibitDemo() {
   return (
     <div style={styles.demo}>
       <h2 style={styles.sectionTitle}>Explore Museum Exhibits</h2>
+      {loading && <div>Loading...</div>}
       <label style={styles.label}>
         Choose an Exhibit:
         <select style={styles.select} onChange={e => handleSelect(e.target.value)} defaultValue="">
