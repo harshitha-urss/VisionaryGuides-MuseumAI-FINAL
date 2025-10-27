@@ -37,7 +37,7 @@ Partnerships with educators, museums, and the community
 🔗 Links
 Demo: https://visionary-museum-guide.netlify.app/
 Question Bank (Full): https://github.com/harshitha-urss/VisionaryGuides-MuseumAI-FINAL/blob/master/question-bank.md
-Presentation: [PDF link if public]
+Presentation: https://github.com/harshitha-urss/VisionaryGuides-MuseumAI-FINAL/blob/master/Museum%20guide%20(2).pdf
 
 ==> Team & Contact
 Project Lead: Harshitha M V
