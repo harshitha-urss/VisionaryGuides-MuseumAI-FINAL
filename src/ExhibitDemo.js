@@ -957,7 +957,6 @@ function ExhibitDemo() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [sources, setSources] = useState([]);
-  const [loading, setLoading] = useState(false);
 
   const handleSelect = (id) => {
     const exhibit = exhibits.find((ex) => ex.id === Number(id));
