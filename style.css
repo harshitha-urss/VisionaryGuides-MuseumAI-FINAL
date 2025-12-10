@@ -1,8 +1,9 @@
 /* HERO SECTION */
 .hero {
-    background: #00F4F4;
-    padding: 120px 20px;
+    background: #00f2cc;   /* Same color as your current */
+    color: black;
     text-align: center;
+    padding: 80px 20px 60px 20px;
 }
 
 .hero h1 {
