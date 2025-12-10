@@ -1,9 +1,17 @@
 /* HERO SECTION */
 .hero {
-   background: linear-gradient(135deg, #00eaff, #00ff9c);
+    background: linear-gradient(135deg, #00eaff, #00ff9c);
     padding: 80px 20px;
-    text-align: center;
     color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 900px;
 }
 
 .hero h1 {
