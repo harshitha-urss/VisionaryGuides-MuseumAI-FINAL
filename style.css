@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #00f2fe, #00ffa2);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 25px;
+    padding: 12px 30px;
+    background-color: #00e0ff;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+}
+
+/* SECTIONS */
+section {
+    background-color: black;
+    color: #00f2fe;
+    padding: 60px 15%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* PARAGRAPH */
+section p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: white;
+}
+
+/* LISTS */
+section ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+section ul li {
+    font-size: 17px;
+    padding: 10px 0;
+    color: white;
+}
+
+/* TECHNOLOGY BOX */
+.tech {
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* IMAGE BOX */
+.image-box {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #00f2fe;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
