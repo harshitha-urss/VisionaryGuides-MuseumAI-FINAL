@@ -1,15 +1,26 @@
-body {
+/* ✅ REMOVE ALL WHITE BORDERS */
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #000;
-    color: white;
-    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* HERO SECTION — SAME STYLE AS EMOTION RESONATE */
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* ✅ HERO SECTION – FULL WIDTH LIKE DROWSINESS */
 .hero {
+    width: 100vw;
+    min-height: 300px;
     background: linear-gradient(135deg, #00eaff, #00ff9c);
-    padding: 80px 20px;        /* same as emotion resonate */
+    padding: 80px 20px;
     color: black;
 
     display: flex;
@@ -23,7 +34,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 40px;           /* match emotion resonate */
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -33,6 +44,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* ✅ BUTTON SAME AS EMOTION RESONATE */
 .btn {
     background-color: #008cff;
     padding: 12px 25px;
@@ -48,14 +60,17 @@ body {
     background-color: #006ed1;
 }
 
-/* BLACK SECTION — SAME AS EMOTION RESONATE */
+/* ✅ BLACK SECTIONS */
 section {
+    width: 100%;
     padding: 40px 20px;
-    background-color: #000;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 h2 {
-    color: #00eaff;             /* same highlight color */
+    color: #00eaff;
     margin-bottom: 15px;
 }
 
@@ -70,15 +85,16 @@ section ul li {
 }
 
 .tech {
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 18px;
     font-weight: bold;
 }
 
-/* FOOTER */
+/* ✅ FOOTER */
 footer {
     background-color: #111;
     padding: 20px;
     margin-top: 30px;
+    text-align: center;
     color: gray;
+    width: 100%;
 }
