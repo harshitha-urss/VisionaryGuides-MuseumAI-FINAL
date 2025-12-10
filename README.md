@@ -54,7 +54,7 @@
 
 # Links
 
-- **Demo:** [https://visionary-museum-guide.netlify.app/](https://visionary-museum-guide.netlify.app/)
+- **Demo:** [[https://visionary-museum-guide.netlify.app/](https://visionaryguides-ai-museum-final.netlify.app/)]
 - **Question Bank (Full):** [question-bank.md](https://github.com/harshitha-urss/VisionaryGuides-MuseumAI-FINAL/blob/master/question-bank.md)
 - **Presentation:** [Museum guide PDF](https://github.com/harshitha-urss/VisionaryGuides-MuseumAI-FINAL/blob/master/Museum%20guide%20(2).pdf)
 
