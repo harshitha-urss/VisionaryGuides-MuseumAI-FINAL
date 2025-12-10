@@ -2,6 +2,7 @@
 .hero {
    background: linear-gradient(135deg, #00eaff, #00ff9c);
     padding: 80px 20px;
+    text-align: center;
     color: black;
 }
 
